@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+@import url(bootstrap/bootstrap.min.css);
+
+
+
+
+.menu a {
+    font-size: 1.3rem;
+}
+
+.menu a:hover {
+    background-color: #461111;
+    color: white;
+    text-decoration: underline;
+}
+
+.sekil {
+    width: 150px;
+}
+
+.altaltmenu li {
+    list-style: none;
+    width: 140px;
+}
+
+.altaltmenu a {
+    color: white
+}
+
+.altmenu {
+    position: relative;
+
+}
+
+.altaltmenu {
+    position: absolute;
+    left: 150px;
+    background-color: #3b0202;
+    visibility: hidden;
+    margin: -33px 2px;
+}
+
+.altmenu li:hover .altaltmenu {
+    visibility: visible;
+    left: 155px;
+    transition: 300ms;
+}
+
+.altaltmenu a {
+    text-decoration: none;
+}
+
+.altaltmenu li a:hover {
+    padding: 0 3px;
+    transition: 300ms;
+}
+
+
+
+
+
+.slider img {
+    width: 10px;
+}
+
+body {
+    background-image: url(arxafon.gif);
+    height: 1000px;
+}
+
+.slogan {
+    background-color: rgba(1, 1, 1, 2);
+    height: 50px;
+}
+
+span {
+    position: relative;
+    color: white;
+    left: 340px;
+    font-size: 2rem;
+    padding: 5px;
+}
+
+.burayatikla:hover {
+    background-color: #3b0202;
+    transition: 500ms;
+    margin-left: 3px;
+
+}
+
+.card-img-top {
+    width: 250px;
+}
+
+.dunya {
+    height: 21.5rem;
+}
+
+.ayaq {
+    width: 1112px;
+}
